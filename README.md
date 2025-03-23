@@ -6,6 +6,7 @@ To develop a Django application to store and retrieve data from a Movies Databas
 
 ## ENTITY RELATIONSHIP DIAGRAM
 
+![Screenshot 2025-03-23 154439](https://github.com/user-attachments/assets/6035c46f-77c1-4f7c-83d7-5785badf1c38)
 
 
 ## DESIGN STEPS
@@ -23,8 +24,7 @@ Enter the code for admin.py and models.py
 Execute Django admin and create details for 10 books
 
 ## PROGRAM
-'''
-
+~~~
 models.py
 from django.db import models
 from django.contrib import admin
@@ -42,7 +42,7 @@ from django.contrib import admin
 from .models import Movie,MovieAdmin
 admin.site.register(Movie,MovieAdmin)
 
-'''
+~~~
 ## OUTPUT
 
 ![alt text](<Screenshot 2025-03-23 135449.png>)
